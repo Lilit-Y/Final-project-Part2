@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Portfolio {
+    width: 100vw;
+    height: 345px;
+    background-color: #D1C8D9;
+}
+
+.portimage {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    top: 89px;
+    left: 102px;
+}
+
+.porttitle {
+    position: absolute;
+    left: 224px;
+    top: 89px;
+    color: black;
+    font-weight: bold;
+    font-size: 60px;
+    font-family:'Roboto';
+}
+
+.porttext {
+    position: absolute;
+    width: 1282px;
+    height: 72px;
+    left: 224px ;
+    top:186px;
+    font-size: 24px;
+    line-height: 36px;
+    font-family:'Roboto';
+}
+
+.portrect {
+    position: absolute;
+    top:345px ;
+    background-color: #D8D9DB;
+    width: 100vw; 
+    height:623px ;
+}
+
+.photovideorect {
+    position: absolute;
+    width: 975px;
+    height: 623px;
+}
+
+.slider {
+    position: relative;
+    display: flex; 
+    left: 50.5vw;
+    bottom: 50%;
+}
+
+.slidestep {
+    position: relative;
+    display: flex;
+    bottom: 63vh;
+    left: 4vw;
+}
+
+.textrect {
+    width: 750px;
+    height: 481px;
+    margin-left: 1029px;
+    margin-top: 74px;
+}
+
+.title {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    font-weight: bold;
+    color: black;
+    font-family:'Roboto';
+}
+
+.text {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 54px;
+    width: 750px;
+    height: 216px;
+    font-size: 24px;
+    line-height: 36px;
+    font-family: 'Roboto';
+}
+
+.button {
+    position: relative;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 301px;
+    height: 89px;
+    left: 25%;
+    top: 73px;
+    border:5px black solid;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: bolder;
+    font-style: normal;
+    font-family: 'Roboto';
+    
+}
+
